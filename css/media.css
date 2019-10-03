@@ -1,0 +1,537 @@
+@media (max-width: 1169px) {
+    .container {
+        width: 768px;
+    }
+    .main-window {
+        width: 320px;
+        height: 380px;
+        bottom: 200px;
+    }
+    .main-fon {
+        display: none;
+    }
+    .pills {
+        width: 540px;
+        height: 320px;
+    }
+    .pills-price__one {
+        left: 240px;
+    }
+    .pills-price__two {
+        top: 90px;
+        left: 340px;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    .logo:before {
+        left: -80px;
+        width: 60px;
+        height: 40px;
+    }
+    .header-list {
+        width: 570px;
+    }
+    .header-list__text {
+        font-size: 14px;
+    }
+    .main-title {
+        font-size: 32px;
+        padding-left: 160px; 
+    }
+    .main-form {
+        right: 24px;
+    }
+    .main-title span {
+        font-size: 24px;
+    }
+    .main-list {
+        width: 300px;
+        padding-left: 160px;
+    }
+    .main-list__item {
+        font-size: 24px;
+    }
+    .main-list__span p {
+        font-size: 16px;
+    }
+    .main-list__text {
+        font-size: 16px;
+    }
+    .fungus-title {
+        font-size: 36px;
+        margin: 20px;
+    }
+    .fungus-title__text {
+        font-size: 20px;
+        padding: 0 40px;
+    }
+    .fungus-list__item {
+        width: 245px;
+    }
+    .fungus-list__img {
+        width: 120px;
+        height: 120px;
+    }
+    .fungus-list__title {
+        font-size: 18px;
+    }
+    .fungus-descriptions {
+        box-sizing: border-box;
+    }
+    .why {
+        margin-bottom: 120px;
+    }
+    .why-wrapper {
+        height: auto;
+    }
+    .why-title {
+        font-size: 32px;
+    }
+    .why-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-list__item {
+        width: 540px;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .why-list__description {
+        margin-bottom: 20px;
+    }
+    .why-descriptions {
+        box-sizing: border-box;
+        height: auto;
+    }
+    .fungus-descriptions__text {
+        padding: 20px 10px;
+    }
+    .mycocin-title {
+        font-size: 36px;
+        padding: 0 80px;
+    }
+    .mycocin-title:before {
+        bottom: 80px;
+    }
+    .mycocin-title__description {
+        font-size: 18px;
+        padding: 0 80px;
+    } 
+    .mycocin-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mycocin-list__last,
+    .mycocin-list__item {
+        width: 540px;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .mycocin-list__description {
+        margin-bottom: 30px;
+    }
+    .mycocin-descriptions__wrapper {
+        width: 680px;
+        height: 140px;
+    }
+    .mycocin-descriptions {
+        width: 680px;
+        height: 140px;
+    }
+    .mycocin-descriptions__text {
+        text-align: center;
+    }
+    .how-apply__title {
+        font-size: 36px;
+    }
+    .how-apply__wrapper {
+        height: auto;
+        background-size: cover;
+    }
+    .how-apply-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .how-apply-list {
+        margin-bottom: 80px;
+    }
+
+}
+@media (max-width: 767px) {
+    .container {
+        width: 320px;
+    }
+    .main-wrapper {
+        margin-bottom: 60px;
+    }
+    .main {
+        height: 880px;
+        background-position: 0%;
+    }
+    .main-window,
+    .main-fon {
+        display: none;
+    }
+    .pills {
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        height: 180px; 
+        background-size: cover;
+    }
+    .pills-price__one {
+        font-size: 22px;
+        left: 160px;
+    }
+    .pills-price__two {
+        top: 60px;
+        font-size: 22px;
+        left: 220px;
+    }
+
+    .header {
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .logo {
+        padding-left: 94px;
+        margin-right: 0;
+        font-size: 24px;  
+    }
+    .logo:before {
+        left: 0;
+        width: 90px;
+        height: 60px;
+    }
+    .header-list {
+        display: none;
+    }
+	.menu-icon {
+        display: block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        background-color: rgb(168, 202, 63);
+        border-radius: 4px; 
+        box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    .menu-icon__item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 40px;
+        height: 40px;
+        background-image: url(../image/menu-icon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navigation {
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 80%;
+        height: 100vh;
+        background-color: rgb(80, 80, 80);
+        z-index: 5;
+    }
+    .navigation-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        background-color: #f54d01;
+    }
+    .navigation-close span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-image: url(../image/close.png);
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .navigation-block {
+        padding: 100px 20px 0 20px;
+    }
+    .navigation-block__item {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 22px;
+        margin-bottom: 36px;
+        font-weight: 500;
+    }
+    .navigation-block__item:after {
+        position: absolute;
+        content: '';
+        bottom: -8px;
+        left: 0;
+        width: 40px;
+        height: 2px;
+        background-color: rgb(168, 202, 63);
+    }
+    .navigation-content {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .navigation-content__item {
+        margin-bottom: 30px;
+    }
+    .navigation-content__item p {
+        color: #ffffff;
+    }
+    .main-title {
+        font-size: 32px;
+        padding-left: 4px;
+    }
+    .main-title span {
+        font-size: 26px;
+    }
+    .main-list {
+        width: 300px;
+        padding-left: 10px;
+        margin-bottom: 40px;
+    }
+    .main-list__span p {
+        font-size: 14px;
+        line-height: 1;
+    }
+    .main-list__text {
+        font-size: 16px;
+    }
+    .main-btn {
+        display: block;
+        width: 180px;
+        padding: 18px 0;
+        background-color: #f54d01;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-left: auto;
+        text-align: center;
+        border-radius: 4px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .js-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 2;
+    }
+    .main-form {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .main-form:before {
+        border: none;
+        background-color: rgba(0, 0, 0, 0.0)
+    }
+    .free-delivery {
+        top: 20px;
+    }
+    .close-btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        min-width: 40px;
+        min-height: 40px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        background-color:  rgba(168, 202, 63, 0.9);
+    }
+    .close-btn  span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-image: url(../image/close.png);
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }        
+    .fungus-title {
+        font-size: 28px;
+        margin: 0 0 20px 0;
+    }
+    .fungus-title__text {
+        font-size: 18px;
+    }
+    .fungus-list {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .fungus-list__item {
+        width: 320px;
+        margin-bottom: 60px;
+    }
+    .fungus-list__img {
+        width: 160px;
+        height: 160px;
+    }
+    .fungus-list__title {
+        font-size: 16px;
+    }
+    .fungus-list__text {
+        font-size: 16px;
+    }
+    .fungus-descriptions {
+        height: auto;
+    }
+    .fungus-descriptions:before {
+        width: 120px;
+    }
+    .fungus-descriptions__text {
+        padding: 28px 10px;
+        font-size: 16px;
+    }
+    .why-wrapper {
+        height: auto;
+        background-size: cover;
+    }
+    .why-title {
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 80px;;
+    }
+    .why-list {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .why-list__item {
+        width: 300px;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .why-list__item {
+        font-size: 20px;
+    }
+    .why-list__text {
+        font-size: 16px;
+    }
+    .why-line {
+        background-position: center;
+        width: 280px;
+    }
+    .why-list__description {
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding: 0 14px;
+    }
+    .why-descriptions {
+        height: auto;
+    }
+    .why-descriptions:before {
+        background-color: #ffffff; 
+        top: -5px; 
+        height: 6px;
+    }
+    .mycocin-title {
+        padding-top: 160px;
+        font-size: 24px;
+        line-height: 1.2;
+        padding: 0;
+    }
+    .mycocin-title__description {
+        font-size: 18px;
+        padding: 0;
+    }
+    .mycocin-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mycocin-list__last,
+    .mycocin-list__item {
+        width: 300px;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .mycocin-list__description {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .mycocin-descriptions__wrapper {
+        width: 300px;
+        height: 240px;
+    }
+    .mycocin-descriptions {
+        width: 300px;
+        height: 240px;
+    }
+    .mycocin-descriptions__text {
+        padding: 0 14px;
+        text-align: center;
+        line-height: 1.4;
+    } 
+    .how-apply__wrapper {
+        height: auto;
+    }
+    .how-apply__title {
+        font-size: 28px;
+    }
+    .how-apply__title:before {
+        bottom: 60px;
+    }
+    .how-apply-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .how-apply__img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .how-apply-list {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .how-apply-list__item {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 60px;
+        padding-left: 120px;
+        margin-bottom: 60px;
+    }
+    .how-apply-list__item:last-child {
+        margin-bottom: 60px;
+    }
+    .how-apply-list__item:before {
+        width: 90px;
+        height: 90px;
+        background-size: contain;
+        background-position: center
+    }
+    .how-apply-list__item:after {
+        left: 120px;
+    }
+
+
+
+
+    
+    
+    
+
+
+
+
+}
